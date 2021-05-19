@@ -1,0 +1,40 @@
+.mt-xs {
+  margin-bottom: 12rem !important;
+  @include respond(tab-port){
+    margin-bottom: 8rem !important;
+  }
+}
+.m-sides{
+  @include respond(tab-port) {
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+  }
+}
+.mt-lg {
+  margin-bottom: 8rem !important;
+}
+
+.mb-lg {
+  margin-bottom: 8rem !important;
+  @include respond(tab-port){
+    margin-bottom: 5rem !important;
+  }
+}
+
+.mb-md {
+  margin-bottom: 4rem !important;
+  @include respond(tab-port) {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.mb-sm {
+  margin-bottom: 1.5rem !important;
+  @include respond(tab-port) {
+    margin-bottom: 1rem !important;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
